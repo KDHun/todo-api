@@ -4,7 +4,8 @@
   "description": "ToDo APIs using ExpressJs ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "author": "Karabhai",
   "license": "ISC",
@@ -16,5 +17,8 @@
     "jsonwebtoken": "^9.0.0",
     "mongoose": "^7.2.2",
     "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=14.20.1"
   }
 }
